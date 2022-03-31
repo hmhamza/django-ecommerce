@@ -29,9 +29,9 @@ python3 manage.py migrate
 python3 manage.py runserver
 ```
 
-## How to run
+## Data update
 
 If you want to update the data, open the admin portal (`/admin`) and use the following credentials to log in:
 
-**Username:** educative
+**Username:** educative\
 **Password:** edu123
