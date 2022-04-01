@@ -22,18 +22,6 @@
     </div>
   </section>
 
-  {% if messages %}
-  {% for message in messages %}
-  <div class="container mb-5 alert alert-danger alert-dismissible fade show" role="alert">
-    {{ message }}
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-  {% endfor %}
-  {% endif %}
-
-
   {% if cart_products %}
   <section class="py-5">
     <h2 class="h5 text-uppercase mb-4">Shopping cart</h2>
